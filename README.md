@@ -1,4 +1,4 @@
-# BridgeLabz_Java_CG
+# BridgeLabz_Java
 
 In this Readme documentation, I'll keep updating my learnings which I gain while attending the training from BridgeLabz.
 
@@ -137,3 +137,4 @@ In this Readme documentation, I'll keep updating my learnings which I gain while
 
 **Issues:**
 - Facing difficulties while deciding program logic
+
