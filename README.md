@@ -138,3 +138,26 @@ In this Readme documentation, I'll keep updating my learnings which I gain while
 **Issues:**
 - Facing difficulties while deciding program logic
 
+---
+
+### **20th December, 2025**
+**What I’ve done:**
+- Completed methods level 3 and a few problems in strings level 1
+
+**What I will do next:**
+- Complete remaining problems in strings
+
+**Issues:**
+- Faced issue while using loops to iterate in string working on similar problems to improve
+
+---
+
+### **22nd December, 2025**
+**What I’ve done:**
+- Completed string and extracts practice problems
+
+**What I will do next:**
+- To complete problems on OOPs
+
+**Issues:**
+- Faced issue while solving problems involving 2D array and string combinations
