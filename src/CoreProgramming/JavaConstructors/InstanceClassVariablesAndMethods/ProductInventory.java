@@ -1,4 +1,4 @@
-package CoreProgramming.JavaConstructors.Level2;
+package CoreProgramming.JavaConstructors.InstanceClassVariablesAndMethods;
 import java.util.Scanner;
 class Product {
     String productName;
