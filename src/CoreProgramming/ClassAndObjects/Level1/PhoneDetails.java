@@ -1,6 +1,6 @@
 package CoreProgramming.ClassAndObjects.Level1;
 import java.util.Scanner;
-
+// Created mobile phone class
 class MobilePhone {
     private String brand;
     private String model;
@@ -38,7 +38,7 @@ class MobilePhone {
         }
     }
 }
-
+// Created a main class phone details
 public class PhoneDetails {
 
     public static void phoneDetails(MobilePhone mobilePhone) {
@@ -49,7 +49,7 @@ public class PhoneDetails {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+        // Getting user input
         System.out.print("Enter your mobile phone brand: ");
         String brand = input.nextLine();
 
@@ -60,6 +60,7 @@ public class PhoneDetails {
         double price = input.nextDouble();
 
         MobilePhone mobilePhone = new MobilePhone(brand, model, price);
+        // Calling methods
         phoneDetails(mobilePhone);
 
         input.close();
