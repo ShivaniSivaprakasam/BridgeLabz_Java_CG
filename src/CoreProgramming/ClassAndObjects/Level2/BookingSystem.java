@@ -1,6 +1,6 @@
 package CoreProgramming.ClassAndObjects.Level2;
 import java.util.Scanner;
-
+// Created a class called movie ticket
 class MovieTicket {
     private String movieName;
     private int seatNumber;
@@ -21,7 +21,7 @@ class MovieTicket {
         System.out.println("Price      : " + price);
     }
 }
-
+// Created a main class called booking system
 public class BookingSystem {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -37,6 +37,7 @@ public class BookingSystem {
 
         MovieTicket ticket = new MovieTicket(movieName);
         ticket.bookTicket(seatNumber, price);
+        // Calling method
         ticket.displayTicketDetails();
     }
 }
