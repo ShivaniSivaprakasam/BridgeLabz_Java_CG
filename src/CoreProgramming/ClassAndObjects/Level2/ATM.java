@@ -1,6 +1,6 @@
 package CoreProgramming.ClassAndObjects.Level2;
 import java.util.Scanner;
-
+// Created a class bank account
 class BankAccount {
     private String accountHolder;
     private String accountNumber;
@@ -36,7 +36,7 @@ class BankAccount {
         this.balance = balance;
     }
 }
-
+// Created a main class called ATM
 public class ATM {
     public static void deposit(BankAccount account, double amount) {
         if (amount > 0) {
@@ -60,7 +60,7 @@ public class ATM {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+        // Getting user input
         System.out.print("Enter account holder name: ");
         String accountHolder = input.nextLine();
 
@@ -79,7 +79,7 @@ public class ATM {
         System.out.print("Enter amount to withdraw: ");
         double withdrawAmount = input.nextDouble();
         withdraw(account, withdrawAmount);
-
+        // Calling method
         balanceDisplay(account);
 
     }
