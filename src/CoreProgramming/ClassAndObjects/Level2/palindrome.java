@@ -1,5 +1,6 @@
 package CoreProgramming.ClassAndObjects.Level2;
 import java.util.Scanner;
+// Created a class palindrome checker
 class PalindromeChecker {
     private String text;
     public PalindromeChecker(String text) {
@@ -18,6 +19,7 @@ class PalindromeChecker {
         }
         return true;
     }
+    // Method to display result
     public void displayResult() {
         if (isPalindrome()) {
             System.out.println(text + " is a palindrome.");
@@ -26,12 +28,15 @@ class PalindromeChecker {
         }
     }
 }
+// Created a main class called palindrome
 public class palindrome {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        // Getting user input
         System.out.print("Enter a string: ");
         String userText = input.nextLine();
         PalindromeChecker checker = new PalindromeChecker(userText);
+        // Calling method
         checker.displayResult();
     }
 }
