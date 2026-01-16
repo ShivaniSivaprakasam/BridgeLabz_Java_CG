@@ -1,5 +1,6 @@
 package CoreProgramming.ClassAndObjects.Level1;
 import java.util.Scanner;
+// Created a class named item
 class Item{
     int itemCode;
     String itemName;
@@ -31,6 +32,7 @@ class Item{
         return price;
     }
 }
+// Created a main class called track inventory
 public class TrackInventory {
     public static double itemPice(Item item){
         System.out.print("Enter quantity: ");
@@ -45,6 +47,7 @@ public class TrackInventory {
     }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        // Getting user input
         System.out.print("Enter item name: ");
         String name = input.nextLine();
         System.out.print("Enter item code: ");
@@ -52,6 +55,7 @@ public class TrackInventory {
         System.out.print("Enter item price: ");
         double price = input.nextDouble();
         Item item = new Item(code, name, price);
+        // Calling method
         itemDisplay(item);
         double result = itemPice(item);
         System.out.println("The total price of the item is: " + result);
