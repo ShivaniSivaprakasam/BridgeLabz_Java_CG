@@ -1,9 +1,9 @@
 package CoreProgramming.ControlFlowPractices.Level1;
-
 import java.util.Scanner;
 public class CountingNumbers {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        // Getting user input
         System.out.print("Enter number: ");
         int number = input.nextInt();
         while ( number <= 0 ){
@@ -11,11 +11,13 @@ public class CountingNumbers {
             number = input.nextInt();
         }
         int sum = 0;
+        // Setting while loop condition
         while ( number > 0){
             sum = number * (number + 1) /2;
             break;
         }
         System.out.println("The sum of " +number +" numbers is: " +sum +".");
+        // Seeting if loop conditions
         if ( number == sum ){
             System.out.println("The number is equal to the sum of " +number
                     +" numbers");
