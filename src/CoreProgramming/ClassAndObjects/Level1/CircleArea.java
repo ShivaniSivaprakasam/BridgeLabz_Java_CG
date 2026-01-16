@@ -1,5 +1,6 @@
 package CoreProgramming.ClassAndObjects.Level1;
 import  java.util.Scanner;
+// Created a circle class
 class Circle{
     private double radius;
     public Circle(double radius){
@@ -14,6 +15,7 @@ class Circle{
         }
     }
 }
+// Created a main class called circle area
 public class CircleArea{
     public static double area(Circle circle){
         double area = Math.PI * circle.getRadius() * circle.getRadius();
@@ -21,6 +23,7 @@ public class CircleArea{
     }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        // Getting user input
         System.out.print("Enter radius: ");
         double radius = input.nextDouble();
         Circle circle = new Circle(radius);
