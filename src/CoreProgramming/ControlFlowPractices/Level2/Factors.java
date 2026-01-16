@@ -1,6 +1,7 @@
 package CoreProgramming.ControlFlowPractices.Level2;
 import java.util.Scanner;
 public class Factors {
+    // Creating a method to find factors of a number
     public static void findingFactors(int N){
         while ( N < 0 ) {
             System.out.print("Enter a positive integer: ");
@@ -14,8 +15,10 @@ public class Factors {
     }
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
+        // Getting user input
         System.out.print("Enter a number: ");
         int N = input.nextInt();
+        // Calling method
         findingFactors(N);
     }
 }
