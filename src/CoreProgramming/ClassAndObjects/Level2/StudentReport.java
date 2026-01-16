@@ -1,6 +1,6 @@
 package CoreProgramming.ClassAndObjects.Level2;
 import java.util.Scanner;
-
+// Created a student class
 class Student {
     private String name;
     private String rollNumber;
@@ -36,7 +36,7 @@ class Student {
         this.name = name;
     }
 }
-
+// Created a main class student report
 public class StudentReport {
 
     public static void studentMarks(Student student) {
@@ -59,7 +59,7 @@ public class StudentReport {
             System.out.println("Invalid marks");
         }
     }
-
+    // Method to display result
     public static void studentDisplay(Student student) {
         System.out.println("Student Name: " + student.getName());
         System.out.println("Student Roll Number: " + student.getRollNumber());
@@ -68,6 +68,7 @@ public class StudentReport {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        // Getting user input
         System.out.print("Enter Student Name: ");
         String name = input.nextLine();
         System.out.print("Enter Student Roll Number: ");
@@ -75,6 +76,7 @@ public class StudentReport {
         System.out.print("Enter Student Marks: ");
         float marks = input.nextFloat();
         Student student = new Student(name, rollNumber, marks);
+        // Calling method
         studentMarks(student);
         studentDisplay(student);
     }
