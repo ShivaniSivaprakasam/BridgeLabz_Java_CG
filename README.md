@@ -1,6 +1,6 @@
 # Daily Progress Log – BridgeLabz Training
 
-## README File
+## BridgeLabz Training
 
 - **08-Dec-2025 (Monday):** Installed and set up Notepad++, Eclipse, and JDK.
 - **09-Dec-2025 (Tuesday):** Studied basics in Java.
@@ -24,6 +24,7 @@
 - **14-Jan-2026 (Wednesday):** Started with data structures in Java and problems on linked-list.
 - **15-Jan-2026 (Thursady):** Learnt data structures in Java and problems on linked-list.
 - **16-Jan-2026 (Wednesday):** Worked on corrections provided for git-hub repo.
+
 
 
 
