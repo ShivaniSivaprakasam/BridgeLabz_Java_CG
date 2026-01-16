@@ -1,5 +1,6 @@
 package CoreProgramming.ClassAndObjects.Level1;
 import java.util.Scanner;
+// Created a book class
 class Book {
     private String title;
     private String author;
@@ -30,6 +31,7 @@ class Book {
         }
     }
 }
+// Created a main class called book demo
 public class BookDemo {
     public void displayDetails(Book book) {
         System.out.println("Title  : " + book.getTitle());
@@ -38,6 +40,7 @@ public class BookDemo {
     }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        // Getting user input
         System.out.print("Enter book title: ");
         String title = input.nextLine();
         System.out.print("Enter author name: ");
@@ -46,6 +49,7 @@ public class BookDemo {
         double price = input.nextDouble();
         Book book = new Book(title, author, price);
         BookDemo demo = new BookDemo();
+        // Calling methid
         demo.displayDetails(book);
     }
 }
