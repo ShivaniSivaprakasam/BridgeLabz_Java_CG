@@ -1,7 +1,7 @@
 package CoreProgramming.ControlFlowPractices.Level1;
-
 import java.util.Scanner;
 public class Season {
+    // Creating a method to know the month and date
     public static boolean isSpring(int month, int day) {
         if (month < 3 || month > 6) {
             return false;
@@ -23,13 +23,13 @@ public class Season {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        // Getting user input
         System.out.print("Enter month (1-12): ");
         int month = sc.nextInt();
 
         System.out.print("Enter day: ");
         int day = sc.nextInt();
-
+        // Seting loop ro get values
         if (isSpring(month, day)) {
             System.out.println("It's a Spring Season");
         } else {
