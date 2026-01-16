@@ -3,9 +3,12 @@ import java.util.Scanner;
 public class FizzBuzz {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        // Getting user input
         System.out.print("Enter a number: ");
         int number =  input.nextInt();
+        // Checking if the number is greater than zero 
         if ( number > 0 ){
+            // Setting loop to find if the number is divisible by 3 and 5
             if (number % 3 == 0 && number % 5 == 0){
                 System.out.println("FizzBuzz");
             }
