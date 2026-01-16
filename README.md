@@ -22,4 +22,7 @@
 - **12-Jan-2026 (Monday):** Completed with practice problems on Java inheritance.
 - **13-Jan-2026 (Tuesday):** Completed with practice problems on Java encapsulation.
 - **14-Jan-2026 (Wednesday):** Started with data structures in Java and problems on linked-list.
+- **15-Jan-2026 (Thursady):** Learnt data structures in Java and problems on linked-list.
+- **16-Jan-2026 (Wednesday):** Worked on corrections provided for git-hub repo.
+
 
