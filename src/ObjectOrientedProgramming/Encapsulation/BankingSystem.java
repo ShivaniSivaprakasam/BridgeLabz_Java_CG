@@ -1,3 +1,6 @@
+/* This programe has an interface named loanable, an abstract class bank account and extended classes. The extended classes can acccess variables and methods from
+    parent or superclass. The main class banking system creats object for each class and there by accessing variables and methods from each class to display
+    results. */
 package ObjectOrientedProgramming.Encapsulation;
 import java.util.Scanner;
 // Creating an interface called lonable
