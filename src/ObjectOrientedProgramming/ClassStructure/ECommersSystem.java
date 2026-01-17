@@ -1,3 +1,7 @@
+/* This programe focuses on creating three classes namely product, order and coustomer. The product class takes in the name and pricing 
+    details of the chosen product while the order class takes the list of products and order ID's. The coustomer class takes in the name of the coustomer 
+    and the orders that they have placed. The main class named ECommersSystem helps in integrsting all these classes and calling in necessary methods and attributes
+    to provide the final result. */
 package ClassSequenceDiagram;
 import java.util.ArrayList;
 import java.util.Scanner;
