@@ -1,3 +1,5 @@
+/* This programe creates three classes namely student, course and school. Each class takes in required input. The main class named as school administraction,
+    creates necessary objects to access each class and display its results */
 package ClassSequenceDiagram;
 import java.util.ArrayList;
 import java.util.Scanner;
