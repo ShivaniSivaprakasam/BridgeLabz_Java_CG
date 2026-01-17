@@ -23,7 +23,9 @@
 - **13-Jan-2026 (Tuesday):** Completed with practice problems on Java encapsulation.
 - **14-Jan-2026 (Wednesday):** Started with data structures in Java and problems on linked-list.
 - **15-Jan-2026 (Thursady):** Learnt data structures in Java and problems on linked-list.
-- **16-Jan-2026 (Wednesday):** Worked on corrections provided for git-hub repo.
+- **16-Jan-2026 (Friday):** Worked on corrections provided for git-hub repo.
+- **17-Jan-2026 (Saturday):** Started working on day 3 DSA practice problems.
+
 
 
 
