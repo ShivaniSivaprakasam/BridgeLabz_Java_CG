@@ -1,3 +1,6 @@
+/* This programe focuses on creating three classes learner, instructor and subject. Each class takes in information about learner, instructor and subject. The 
+    main class named as management system, inherits variables and methods from each created class and uses objects created specific for each class and displays
+    the result. */
 package ClassSequenceDiagram;
 import java.util.ArrayList;
 import java.util.Scanner;
